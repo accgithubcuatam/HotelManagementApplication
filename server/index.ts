@@ -11,7 +11,7 @@ const port = process.env.PORT || 5000;
 
 // Database connection setup
 const pool = new Pool({
-    connectionString: process.env.DATABASE_URL, // Replace with your PostgreSQL connection string
+    connectionString: process.env.DATABASE_URL,
 });
 
 // Middleware
